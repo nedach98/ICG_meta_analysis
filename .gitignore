@@ -8,3 +8,26 @@ __pycache__/
 .env.*
 # Original TIFF exceeds GitHub's file limit; its lossless ZIP is included.
 figs/figure3.tiff
+
+# Local credentials and editor settings
+.aws/
+.ssh/
+.codex/
+.vscode/
+.idea/
+*.pem
+*.key
+
+# Temporary files, caches, and Office lock files
+~$*
+*.tmp
+*.swp
+*.swo
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Private review notes and manuscript drafts
+ICG_statistical_technical_report.md
+ICG_revised_statistical_methods.docx
