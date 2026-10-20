@@ -1,0 +1,10 @@
+*.venv/
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+# Original TIFF exceeds GitHub's file limit; its lossless ZIP is included.
+figs/figure3.tiff
